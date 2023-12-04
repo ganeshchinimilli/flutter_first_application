@@ -114,7 +114,7 @@ class _TodoListState extends State<TodoList> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () => _displayDialog(),
-        tooltip: 'Add Todos',
+        tooltip: 'Add Todo',
         child:Icon (Icons.add)
       ),
     );
